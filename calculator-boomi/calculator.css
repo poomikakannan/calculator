@@ -1,0 +1,59 @@
+body{
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px 0;
+    background-color: grey;
+}
+  
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    width: 300px;
+    gap: 10px;
+    justify-content: center;
+}
+button 
+{
+    height: 50px;
+    border: none;
+    border-radius: 40%;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #fff;
+}
+input[type="text"] 
+{
+    grid-column: span 4;
+    height: 80px;
+    width: 230px;
+    border: none;
+    border-radius: 20px;
+    font-size: 35px;
+    text-align: end;
+    padding-right: 10px;
+    margin: 35px 0;
+}
+  
+button#Equal 
+{
+  width: 110px;
+  border-radius: 10px;
+}
+  
+button #Subtract
+{
+    font-size: 20px;
+}
